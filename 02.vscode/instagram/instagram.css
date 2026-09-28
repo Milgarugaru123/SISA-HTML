@@ -1,0 +1,34 @@
+.title {
+  font-size: 50px;
+  font-family: "Brush Script MT", cursive;
+}
+
+.profile_pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.name_tag {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.login_button {
+  color: white;
+  background-color: #0095f6;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 15px 10px;
+  width: 350px;
+}
+
+.switch_button {
+  font-size: 15px;
+  color: #0095f6;
+  background-color: white;
+  border: none;
+  padding: 15px 10px;
+  width: 350px;
+}

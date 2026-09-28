@@ -1,0 +1,41 @@
+.out_box {
+  width: 500px;
+  height: auto;
+  border: 2px solid lightgray;
+  border-radius: 30px;
+  background-color: white;
+  padding: 30px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.in_box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button {
+  /* width: fit-content; */
+  width: 20%;
+  height: auto;
+  border: none;
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  /* display: inline-block; */
+}
+
+.won {
+  color: blue;
+  font-family: NexonMaplestory;
+  font-size: 20px;
+  line-height: 27px;
+}

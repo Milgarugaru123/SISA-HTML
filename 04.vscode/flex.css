@@ -1,0 +1,58 @@
+.container {
+  /* width: 1000px;
+  height: 1000px; */
+  /* vw: viewport-width */
+  /* vh: viewport-height */
+  width: 100vw;
+  height: 100vh;
+  border: 4px solid black;
+  /* margin: 10px; */
+
+  /* 자식들을 한 줄로 세우기 */
+  display: flex;
+
+  /* 자식들의 방향(가로, 세로) 정하기 */
+  flex-direction: row;
+
+  /* 해당 방향의 자식 위치 조정 */
+  /* start, center, end */
+  /* space-between: 좌우 끝 및 내부 균등 배치 */
+  /* space-evenly: 자식 사이와 양끝 여백 간격을 모두 균등 배치 */
+  /* space-around: 자식의 양 끝에 같은 크기의 여백 생성 */
+  justify-content: center;
+
+  /* start, center, end */
+  align-items: center;
+
+  /* 자식 간의 정렬 간격 */
+  gap: 40px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+}

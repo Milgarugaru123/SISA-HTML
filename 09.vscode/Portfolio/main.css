@@ -1,0 +1,19 @@
+main {
+}
+
+.contents {
+  width: 100%;
+  max-width: var(--max-w);
+  height: auto;
+  margin: 0 auto;
+}
+
+h3 {
+  color: var(--color-purple2);
+  font-size: var(--font-xl);
+  text-shadow: 2px 2px 1px var(--color-purple3);
+  font-weight: 900;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  cursor: default;
+}

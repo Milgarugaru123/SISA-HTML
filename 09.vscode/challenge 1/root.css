@@ -1,0 +1,22 @@
+:root {
+  --max-w: 1280px;
+  --color-main-dark1: #444444;
+  --color-main-dark2: #555555;
+  --color-main-dark3: #666666;
+  --color-main-light3: #777777;
+  --color-main-light2: #888888;
+  --color-main-light1: #999999;
+  --color-bg: #333333;
+  --font-l: 24px;
+  --font-m: 15px;
+  --font-s: 12px;
+}
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}

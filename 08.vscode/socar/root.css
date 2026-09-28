@@ -1,0 +1,12 @@
+:root {
+  --max-width: 1280px;
+  --color-primary: #354153;
+  --color-secondary: rgb(229, 232, 239);
+  --color-third: #0078ff;
+  --font-size-xl: 26px;
+  --font-size-l: 22px;
+}
+
+* {
+  font-family: "Pretendard";
+}

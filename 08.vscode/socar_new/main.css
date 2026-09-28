@@ -1,0 +1,24 @@
+main {
+}
+
+.contents {
+  width: 100%;
+  max-width: var(--max-width);
+  font-size: var(--font-s);
+  color: var(--color-primary);
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: var(--font-l);
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.sub_title {
+  color: rgb(105, 115, 131);
+  font-size: var(--font-m);
+  font-weight: 400;
+  margin-bottom: 18px;
+}

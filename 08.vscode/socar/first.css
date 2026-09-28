@@ -1,0 +1,56 @@
+.first {
+  height: auto;
+  margin: 40px 0px 60px;
+}
+
+.top_title {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.first .search_btn {
+  border: 1px solid var(--color-secondary);
+  border-radius: 12px;
+  display: inline-flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px 12px;
+  gap: 10px;
+  padding-right: 30px;
+  margin-right: 20px;
+}
+.first .cal {
+  cursor: pointer;
+}
+
+.first .search {
+  display: inline-flex;
+  flex-direction: start;
+  align-items: center;
+}
+
+.first .search > .search_btn {
+  margin-right: 8px;
+}
+
+.first input[type="date"] {
+  border: none;
+  width: 260px;
+}
+
+.first input[type="text"] {
+  border: none;
+  width: 400px;
+}
+
+.first > .contents button {
+  border: 2px solid transparent;
+  border-radius: 12px;
+  color: rgb(180 187 203);
+  background-color: rgb(242, 243, 248);
+  padding: 12px 18px;
+
+  /* 글자 찌그러짐, 줄 넘김 방지 */
+  white-space: nowrap;
+}

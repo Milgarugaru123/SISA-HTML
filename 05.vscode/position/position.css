@@ -1,0 +1,67 @@
+.out_box {
+  width: 50vw;
+  height: 50vh;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 50px;
+}
+
+.colors {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  /* position: relative; */
+}
+
+/* 이게 우선시 되는 태그임 */
+/* class 기준 가장 마지막에 인식 */
+.colors > div {
+  width: 100%;
+  height: 50%;
+}
+
+.color1 {
+  /* 브라우저 기준 이동 */
+  /* position: fixed; */
+  background-color: #55efc4;
+}
+
+.color1 > span {
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
+.color2 {
+  background-color: #00b894;
+  /* 기본 값은 position: static -> 고정 */
+  /* 현재 기준으로 이동 */
+  /* position: relative;
+  top: -100px;
+  left: 100px; */
+}
+
+.color3 {
+  background-color: #81ecec;
+  position: relative;
+  /* top: 50px;
+  left: 50px; */
+}
+
+.color3 > span {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+.color4 {
+  background-color: #00cec9;
+  /* 부모가 static이 아닌 것 중에서 가장 가까운 요소를 부모로 잡음 */
+  /* position: absolute; */
+  top: 200px;
+  left: 100px;
+}

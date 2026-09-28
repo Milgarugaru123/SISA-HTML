@@ -1,0 +1,153 @@
+.border_box {
+  width: 100vw;
+  height: 1000vh;
+  border: 4px solid black;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  /* border: 4px solid black; */
+  display: flex;
+  /* flex-direction: column;
+  flex-wrap: wrap; */
+  flex-flow: row wrap;
+  align-content: start;
+}
+
+.box {
+  box-sizing: border-box;
+  max-height: 100vh;
+  width: 20%;
+  height: 23%;
+  align-content: end;
+}
+
+.color_name {
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: end;
+  padding: 0px 10px 10px 0px;
+}
+
+.color1 {
+  background-color: rgb(182, 131, 182);
+}
+
+.color2 {
+  background-color: rgb(133, 82, 133);
+}
+
+.color3 {
+  background-color: rgb(238, 227, 67);
+}
+
+.color4 {
+  background-color: rgb(221, 179, 62);
+}
+
+.color5 {
+  background-color: rgb(226, 82, 130);
+}
+
+.color6 {
+  background-color: rgb(218, 58, 58);
+}
+
+.color7 {
+  background-color: rgb(96, 233, 226);
+}
+
+.color8 {
+  background-color: rgb(45, 201, 221);
+}
+
+.color9 {
+  background-color: rgb(89, 224, 184);
+}
+
+.color10 {
+  background-color: rgb(49, 175, 137);
+}
+
+.color11 {
+  background-color: rgb(44, 209, 231);
+}
+
+.color12 {
+  background-color: rgb(24, 137, 189);
+}
+
+.color13 {
+  background-color: rgb(125, 170, 221);
+}
+
+.color14 {
+  background-color: rgb(76, 125, 180);
+}
+
+.color15 {
+  background-color: rgb(156, 46, 219);
+}
+
+.color16 {
+  background-color: rgb(106, 31, 150);
+}
+
+.color17 {
+  background-color: rgb(212, 210, 216);
+}
+
+.color18 {
+  background-color: rgb(177, 167, 196);
+}
+
+.color19 {
+  background-color: rgb(69, 64, 94);
+}
+
+.color20 {
+  background-color: rgb(39, 37, 51);
+}
+
+.color21 {
+  background-color: rgb(127, 211, 93);
+}
+
+.color22 {
+  background-color: rgb(185, 129, 64);
+}
+
+.color23 {
+  background-color: rgb(18, 233, 204);
+}
+
+.color24 {
+  background-color: rgb(245, 120, 47);
+}
+
+.color25 {
+  background-color: rgb(252, 140, 224);
+}
+
+.color26 {
+  background-color: rgb(40, 131, 4);
+}
+
+.color27 {
+  background-color: rgb(141, 84, 19);
+}
+
+.color28 {
+  background-color: rgb(0, 145, 137);
+}
+
+.color29 {
+  background-color: rgb(248, 91, 0);
+}
+
+.color30 {
+  background-color: rgb(255, 79, 211);
+}

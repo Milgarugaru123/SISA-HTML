@@ -1,0 +1,32 @@
+.first {
+}
+
+.first .contents {
+  width: 100%;
+  max-width: 1280px;
+  height: 300px;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.first h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.first p {
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .first h2 {
+    font-size: 20px;
+
+    margin-bottom: 8px;
+  }
+
+  .first p {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+/* 일반적인 태블릿 폭 사이즈 */
+@media (max-width: 768px) {
+  /* 박스 세로로 나열 */
+  .container {
+    flex-flow: column nowrap;
+  }
+  .box {
+    background-color: blue;
+  }
+}

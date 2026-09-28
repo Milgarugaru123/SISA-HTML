@@ -1,0 +1,22 @@
+.first {
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.first .contents {
+  /* background-color: gray; */
+  padding: 30px 0px;
+}
+
+.top_title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.first input[type="date"] {
+  width: 300px;
+}
+
+.first input[type="text"] {
+  padding: 10px;
+}

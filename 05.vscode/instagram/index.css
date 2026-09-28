@@ -1,0 +1,62 @@
+.out_box {
+  width: fit-content;
+  height: auto;
+  border: none;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 25px 20px;
+  margin: 30px;
+}
+
+.profile {
+  width: 80px;
+  height: 100px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.profile_pic {
+  box-sizing: border-box;
+  width: 71px;
+  height: 71px;
+  border: none;
+  border-radius: 100%;
+  background: linear-gradient(45deg, rgb(255, 166, 0), rgb(255, 30, 97));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .profile_pic > img 로도 가능함 */
+.pic {
+  box-sizing: border-box;
+  width: 66px;
+  height: 66px;
+  background-color: white;
+  border: 3px solid white;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.add_story_btn {
+}
+
+.pic_read {
+  box-sizing: border-box;
+  background: lightgray;
+}
+
+.name {
+  text-align: start;
+  font-size: 14px;
+  font-weight: 500;
+}

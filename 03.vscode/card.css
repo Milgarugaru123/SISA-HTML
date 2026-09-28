@@ -1,0 +1,46 @@
+.card {
+  width: 800px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 4px 0px;
+  padding: 20px;
+}
+
+.num {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.tag {
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 15px;
+  width: max-content;
+}
+
+.tag_ci {
+  color: white;
+  background-color: #1ad4c5;
+}
+
+.title {
+}
+
+.logo_img {
+  border: none;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  /* cover: 현재 모양에 최적화 */
+  /* contain: 가능한 다 보이도록 */
+  object-fit: contain;
+  margin-right: 10px;
+}
+
+.name {
+  height: 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: left;
+  align-content: center;
+}

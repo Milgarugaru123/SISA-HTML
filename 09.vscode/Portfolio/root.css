@@ -1,0 +1,31 @@
+:root {
+  --max-w: 1280px;
+  --contents-padding: 140px;
+  --color-mint1: #39c5bb;
+  --color-mint2: #01a0a5;
+  --color-mint3: #017273;
+  --color-brown1: #decaad;
+  --color-brown2: #ae9e83;
+  --color-brown3: rgb(128, 97, 80);
+  --color-purple1: rgb(209, 143, 240);
+  --color-purple2: rgb(200, 81, 255);
+  --color-purple3: rgb(131, 25, 180);
+  --color-green1: rgb(183, 255, 124);
+  --color-green2: rgb(129, 240, 38);
+  --color-green3: rgb(68, 202, 27);
+  --font-xl: 32px;
+  --font-l: 24px;
+  --font-m: 20px;
+  --font-s: 16px;
+  --font-xs: 12px;
+}
+
+* {
+  font-family: Pretendard;
+}
+
+a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+}

@@ -1,0 +1,22 @@
+.second {
+  background: black;
+}
+
+.second .contents {
+  border: none;
+  padding: 30px 150px;
+}
+
+.second .title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.w_text {
+  color: white;
+}
+
+.y_text {
+  color: yellow;
+}

@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Socar</title>
+    <link rel="stylesheet" href="../../Setting/reset.css" />
+    <!-- Development version -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <!-- Production version -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="../../Setting/font.css" />
+    <link rel="stylesheet" href="root.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="reservation.css" />
+    <link rel="stylesheet" href="promotion.css" />
+    <link rel="stylesheet" href="member_event.css" />
+    <link rel="stylesheet" href="location.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="left">
+          <li>
+            <a href="https://www.socar.kr/" target="_blank"
+              ><img src="socar.svg" alt="SOCAR 로고"
+            /></a>
+          </li>
+          <li>예약하기</li>
+          <li>쏘카 서비스</li>
+          <li>블로그</li>
+        </ul>
+        <ul class="right">
+          <li>로그인</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- reservation -->
+      <section class="reservation">
+        <div class="contents">
+          <p class="top_title">차가 필요할 땐, 쏘카</p>
+          <div>
+            <span class="src_btn cal">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="var(--color-secondary)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-calendar-check-icon lucide-calendar-check"
+              >
+                <path d="M8 2v3" />
+                <path d="M16 2v3" />
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <path d="M3 9h18" />
+                <path d="m9 15 2 2 4-4" />
+              </svg>
+              <span>오늘 ##:## ~ ##:##</span>
+            </span>
+            <span class="search">
+              <span class="src_btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="var(--color-secondary)"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-search-icon lucide-search"
+                >
+                  <path d="m21 21-4.34-4.34" />
+                  <circle cx="11" cy="11" r="8" />
+                </svg>
+                <input type="text" placeholder="대여 장소 검색" />
+              </span>
+              <button>검색</button>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- promotion -->
+      <section class="promotion">
+        <div class="contents">
+          <div class="titles">
+            <p class="title">제주 렌터카도 쏘카인 이유</p>
+            <p class="sub_title">
+              카셰어링의 편리함은 그대로. 더욱 특별한 제주만의 경험과 혜택까지!
+            </p>
+          </div>
+          <div class="promos_cover">
+            <div class="redirect_btn">
+              <a
+                href="https://www.socar.kr/rentacar/places/jeju?start=2026-09-03T10%3A00%2B09%3A00&end=2026-09-04T10%3A00%2B09%3A00"
+                target="_blank"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  viewBox="0 0 24 24"
+                  fill="var(--color-bg)"
+                  stroke="var(--color-primary)"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="lucide lucide-circle-chevron-right-icon lucide-circle-chevron-right"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m10 8 4 4-4 4" />
+                </svg>
+              </a>
+            </div>
+            <div class="promos">
+              <article class="promotion_btn">
+                <img src="pic1.jpg" alt="promo1" />
+                <div class="desc">
+                  <p class="main_desc">항공편부터 차량까지 [완전보장]</p>
+                  <p class="sub_desc">
+                    결항/지연 시 100% 환불 및 무상 연장, 사고 시 자기 부담금 0원
+                  </p>
+                </div>
+              </article>
+              <article class="promotion_btn">
+                <img src="pic2.jpg" alt="promo2" />
+                <div class="desc">
+                  <p class="main_desc">전기차 주행요금 무료</p>
+                  <p class="sub_desc">
+                    주행요금 없이 대여료만 내면 끝! 충전비 0원
+                  </p>
+                </div>
+              </article>
+              <article class="promotion_btn">
+                <img src="pic3.jpg" alt="promo3" />
+                <div class="desc">
+                  <p class="main_desc">프리미엄 라운지, 쏘카터미널</p>
+                  <p class="sub_desc">
+                    공항-터미널 전용 무료 셔틀 5분 / 프리미엄 라운지
+                  </p>
+                </div>
+              </article>
+              <article class="promotion_btn">
+                <img src="pic4.jpg" alt="promo4" />
+                <div class="desc">
+                  <p class="main_desc">블랙라벨 프리미엄 케어</p>
+                  <p class="sub_desc">전문 정비사 상시 점검 및 세차 기본</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- member event -->
+      <section class="member_event">
+        <div class="contents">
+          <p class="title">쏘카 회원 전용 혜택</p>
+          <p class="sub_title">매일 쏟아지는 혜택을 쏘카에서 만나보세요.</p>
+        </div>
+      </section>
+
+      <!-- location -->
+      <section class="location">
+        <div class="contents">
+          <p class="title">어디로 떠날까요?</p>
+          <p class="sub_title">여행도 일상도 쏘카와 함께해요</p>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

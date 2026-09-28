@@ -1,0 +1,8 @@
+.third {
+  height: 500px;
+  margin-bottom: 10px;
+}
+
+.third .contents {
+  background-color: gray;
+}

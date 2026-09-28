@@ -1,0 +1,12 @@
+.hello {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #f2f2f2;
+}
+
+.hello2 {
+  background-color: gold;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 10px 5px 10px;
+}

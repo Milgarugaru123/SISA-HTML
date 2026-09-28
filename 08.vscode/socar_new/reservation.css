@@ -1,0 +1,65 @@
+.reservation {
+  margin: 80px 0px 40px;
+}
+
+.reservation .top_title {
+  font-size: var(--font-xl);
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+
+.reservation .contents > div {
+  display: flex;
+}
+
+.reservation .src_btn {
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 8px 12px;
+  display: inline-flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.reservation .cal {
+  width: 300px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.reservation .search {
+  flex: 1;
+  height: 100%;
+  display: inline-flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.reservation .search .src_btn {
+  width: 100%;
+  padding-right: 40px;
+  margin-right: 8px;
+}
+
+.reservation .search input[type="text"] {
+  color: var(--color-border);
+  width: 100%;
+  border: none;
+}
+.reservation .search input::placeholder {
+  font-size: var(--font-s);
+  color: rgb(180, 187, 203);
+}
+
+.reservation .search button {
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  color: rgb(180, 187, 203);
+  background-color: var(--color-bg);
+  padding: 12px 18px;
+  white-space: nowrap;
+  cursor: not-allowed;
+}

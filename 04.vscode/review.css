@@ -1,0 +1,40 @@
+.box {
+  box-sizing: border-box;
+  width: 500px;
+  border: none;
+  margin: 50px;
+}
+.btn {
+  width: 400px;
+  height: 70px;
+  border: 2px solid black;
+  border-radius: 50px;
+  /* padding: 20px; */
+}
+.apple {
+  background-color: black;
+}
+.google {
+  background-color: white;
+}
+
+@font-face {
+  font-family: "GMarketSans";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff")
+    format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+
+.btn_text {
+  font-family: GMarketSans;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-right: 7px;
+}

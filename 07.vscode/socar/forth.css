@@ -1,0 +1,8 @@
+.forth {
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.forth .contents {
+  background-color: gray;
+}

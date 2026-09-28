@@ -1,0 +1,69 @@
+section {
+  width: fit-content;
+  height: auto;
+  border: none;
+  border-radius: 20px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 30px;
+  margin: 30px;
+}
+
+section > p {
+  color: rgb(54, 72, 155);
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+.work_imgs {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.imgs {
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  position: relative;
+}
+
+.desc_box {
+  color: white;
+  width: 100%;
+  height: 100%;
+  background: rgb(87, 87, 255);
+  position: absolute;
+  /* top: -100%; */
+  top: 0px;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: all 0.3s;
+  text-align: start;
+  padding: 25px;
+}
+
+.imgs:hover > .desc_box {
+  /* top: 0px; */
+  transform: translateY(0%);
+  opacity: 0.85;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  /* 필요한 경우 z-layer 앞으로 당기기 */
+  /* z-index: 1; */
+}
+
+.desc {
+  font-size: 14px;
+  font-weight: 300;
+}

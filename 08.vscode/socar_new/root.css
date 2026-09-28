@@ -1,0 +1,15 @@
+:root {
+  --max-width: 1300px;
+  --color-primary: rgb(53, 65, 83);
+  --color-secondary: rgb(0, 120, 255);
+  --color-bg: rgb(242, 243, 248);
+  --color-border: rgb(229, 232, 239);
+  --font-xl: 26px;
+  --font-l: 22px;
+  --font-m: 16px;
+  --font-s: 14px;
+}
+
+* {
+  font-family: "Pretandard";
+}

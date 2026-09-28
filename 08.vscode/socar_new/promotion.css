@@ -1,0 +1,78 @@
+.promotion {
+  margin-bottom: 20px;
+}
+
+.promotion .contents {
+  position: relative;
+}
+
+.promotion .titles {
+  position: absolute;
+  top: 0;
+}
+
+.promotion .promos_cover {
+  width: fit-content;
+  max-width: var(--max-width);
+  height: fit-content;
+  /* min-height: 200px; */
+  position: relative;
+}
+
+.promos_cover .redirect_btn {
+  position: absolute;
+  top: -85px;
+  right: 0;
+}
+
+.promos_cover .promos {
+  width: auto;
+  height: max-content;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  gap: 18px;
+  margin-top: 55px;
+}
+
+.promos .promotion_btn {
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  transition: all 0.1s;
+  cursor: pointer;
+}
+
+.promos .promotion_btn:hover {
+  border: 1px solid var(--color-secondary);
+}
+
+.promos .promotion_btn img {
+  width: auto;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.promos .promotion_btn .desc {
+  width: auto;
+  height: auto;
+  padding: 16px 14px;
+}
+
+.promos .desc .main_desc {
+  font-size: var(--font-m);
+  font-weight: 500;
+  line-height: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.promos .desc .sub_desc {
+  color: rgb(105, 115, 131);
+  font-size: 12px;
+  line-height: 1.5em;
+}

@@ -1,0 +1,70 @@
+.landing {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.landing .landing_vid {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.landing .landing_message {
+  width: 100%;
+  max-width: var(--max-w);
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.landing .title {
+  color: white;
+  font-size: 120px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.landing .desc {
+  width: 60%;
+  min-width: 600px;
+  max-width: var(--max-w);
+  color: var(--color-main-light2);
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 10px;
+  margin-bottom: 60px;
+}
+
+.landing .detail {
+  width: 400px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid #bbbbbb;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.detail:link,
+.detail:visited,
+.detail:active {
+  font-size: 11px;
+  font-weight: bold;
+  color: white;
+  transition: 0.3s;
+}
+
+.landing .detail:hover {
+  color: var(--color-main-dark2);
+  background-color: white;
+}

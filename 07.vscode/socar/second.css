@@ -1,0 +1,8 @@
+.second {
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.second .contents {
+  background-color: gray;
+}

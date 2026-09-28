@@ -1,0 +1,28 @@
+.card {
+  border-radius: 10px;
+  border: none;
+  background-color: rosybrown;
+  width: 500px;
+  padding: 10px 0px;
+}
+
+/* img, a, button 태그 -> inline (자기 컨텐츠만큼 차지함) */
+/* 그 외 태그 -> block (부모 끝까지 차지함) */
+.profile_img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+.name {
+  font-size: 50px;
+  text-align: center;
+}
+
+.job {
+  font-size: 30px;
+  text-align: center;
+}

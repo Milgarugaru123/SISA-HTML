@@ -1,0 +1,71 @@
+.welcome {
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: start;
+  cursor: default;
+}
+
+.welcome_img {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  top: 0;
+}
+
+.welcome_img img {
+  width: 100%;
+  height: 640px;
+  object-fit: cover;
+  /* object-fit: contain; */
+  z-index: -1;
+}
+
+.welcome_img .blur {
+  width: 50%;
+  min-width: 640px;
+  height: 640px;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.welcome .contents {
+  width: 50%;
+  min-width: 600px;
+  margin: 0;
+  z-index: 1;
+}
+
+.welcome_box {
+  width: 80%;
+  height: 640px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.welcome_box .title {
+  color: var(--color-brown1);
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+.welcome_box .title em {
+  color: white;
+  font-size: 56px;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+  text-decoration-color: var(--color-mint1);
+}
+
+.welcome_box .desc {
+  color: var(--color-brown2);
+  font-size: var(--font-s);
+  font-weight: 300;
+  line-height: 1.3em;
+}

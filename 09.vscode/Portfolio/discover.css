@@ -1,0 +1,85 @@
+.discover {
+  height: fit-content;
+  padding: var(--contents-padding) 0 0;
+  position: relative;
+  margin: 0 20px;
+}
+
+.discover_box {
+  height: auto;
+  border: 3px solid var(--color-mint1);
+  border-radius: 30px;
+  overflow-x: scroll;
+  /* scrollbar-width: none; */
+  scrollbar-color: transparent;
+  /* overflow-y: hidden; */
+  white-space: nowrap;
+  padding: 5px 5px;
+  /* margin-bottom: 30px; */
+}
+
+.discover_box .news {
+  width: 160px;
+  height: 160px;
+  border: 1px solid black;
+  border-radius: 30px;
+  margin: 0 0 0 20px;
+  object-fit: cover;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.discover_box .news_first {
+  margin: 0;
+}
+
+.discover .news_preview {
+  width: 60vw;
+  max-width: var(--max-w);
+  height: 0;
+  border: 3px solid transparent;
+  border-radius: 30px;
+  opacity: 0.2;
+  /* margin: 0 auto; */
+  position: absolute;
+  left: 18.6vw;
+  top: 418px;
+  transition: all 0.3s;
+  pointer-events: none;
+}
+
+.discover_box .news:hover > .news_preview {
+  border: 3px solid var(--color-mint1);
+  height: 520px;
+  opacity: 1;
+}
+
+.news article img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+.news .news_preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* object-fit: contain; */
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+
+.preview_bg {
+  width: 100%;
+  height: 550px;
+  background-color: var(--color-brown1);
+  margin: 10px 0 var(--contents-padding);
+  color: var(--color-mint2);
+  font-size: var(--font-xl);
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
